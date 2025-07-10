@@ -13,15 +13,19 @@ const Wrapper = styled.div`
   background-color: #f7eeda;
   color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     &:hover {
+        background-color: #e1ddd5;
+    }
+    
 `;
 
 export default function Song(props) {
     const { title, artist, albumArt } = props
   return (
     <Wrapper>
-        <img src={albumArt} alt={`${title} album art`} style={{ width: '100px', height: '100px' }} />
+        <img src={albumArt} alt={`${title} album art`} style={{ width: '150px', height: '150px' }} />
         <h3>{title}</h3>
-        <p>{artist}</p>
+        <p style = {{margin: '1px'}}>{artist}</p>
     </Wrapper>
   )
 }
