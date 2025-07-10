@@ -28,4 +28,5 @@ function Song({title, artist, albumArt}) {
     );
 }
 
-export default Song
+
+export default Song;
