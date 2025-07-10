@@ -15,7 +15,7 @@ const Wrapper = styled.div`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
-export default function song(props) {
+export default function Song(props) {
     const { title, artist, albumArt } = props
   return (
     <Wrapper>
