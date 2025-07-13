@@ -15,11 +15,9 @@
 
 *  과제명: "인터랙티브 '좋아요' 버튼 만들기", "상세 노래 플레이리스트 만들기"
 * 요구사항:
-    1. 기본 UI 구성: 1주차 Song Component에 좋아요 버튼을 추가합니다.
-    2. 다음 노래, 이전 노래로 넘어갈 수 있는 Next, Prev 버튼을 추가합니다. (App.jsx)
-    3. 상태 관리: useState를 사용하여 '좋아요' 개수를 관리하는 likeCount 상태를 만듭니다. (변수명 자유)
-    4. 이벤트 핸들링: 좋아요 버튼을 클릭(onClick)할 때마다 likeCount가 1씩 증가하도록 구현합니다
-    5. 이벤트 핸들링2: Next, Prev 버튼을 누르면, Song component에 index를 전달해 노래를 변경하도록 합니다.
+    1. 기본 UI 구성: 1주차 Song Component에 Next, Prev 버튼이 추가됩니다. 각 Song은 한개만 화면에 나타납니다.
+    2. 다음 노래, 이전 노래로 넘어갈 수 있는 Next, Prev 버튼을 추가합니다. 이떄, 버튼은 Song component에 추가되어야 합니다.
+    3. 이벤트 핸들링2: Next, Prev 버튼을 누르면, 노래가 변경됩니다. 현재 표시할 노래를 가리키는 index는 App.jsx에 추가되어야 합니다.
 
 ## ✨ 추가 구현 사항 (선택)
 
@@ -27,10 +25,8 @@
 
 ## 추가 설명
 
-*   Next, Prev 버튼과 노래 index state는 App.jsx 에서 만들어야 합니다.
-*   Props로 전달받은 index(key)를 바탕으로 노래를 가져옵니다.
-*   Song.jsx에서 state를 통해 화면을 구성해야 합니다.
-
+*   Next, Prev 버튼은 App.jsx에 존재해서는 안됩니다! (Hint : event handler 함수를 props로 넘겨보세요)
+*   Song component가 전달받는 props 속성에, 이벤트 핸들러 함수가 들어갑니다.
 ## 제출 안내
 
 *   **제출 기한**: 2025년 7월 18일 (금) 스터디 시작 전
