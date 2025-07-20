@@ -13,6 +13,7 @@
 
 ## ✅ 3주차 과제: State와 이벤트 처리 (useState, onClick) 연습
 
+
 *  과제명: "다른 종류의 플레이리스트 만들어보기"
 * 요구사항:
     1. 기본 UI 구성: 1주차 Song Component에 Next, Prev 버튼이 추가됩니다. 각 Song은 한개만 화면에 나타납니다.
@@ -28,6 +29,7 @@
 
 *   Next, Prev 버튼은 App.jsx에 존재해서는 안됩니다! (Hint : event handler 함수를 props로 넘겨보세요)
 *   Song component가 전달받는 props 속성에, 이벤트 핸들러 함수가 들어갑니다.
+
 
 ## 제출 안내
 
