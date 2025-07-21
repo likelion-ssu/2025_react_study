@@ -11,6 +11,7 @@ const MainSection = styled.div`
   gap: 10px;
 `
 
+
 const ButtonSection = styled.div`
   display: flex;
   justify-content: space-between;
