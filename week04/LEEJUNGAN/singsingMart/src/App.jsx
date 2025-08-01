@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import CategoryButton from './component/CategoryButton'
 import React from 'react'
+import productData from './data/products.json';
+import Item from './component/Item'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -61,12 +63,21 @@ const ProductFilter = styled.div`
   justify-content: space-between;
   `
 
+const ProductList = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 40px;
+  `
+
 
 function App() {
   const [state, setState] = React.useState('고구마/감자');
   const isSelected = (category) => {
     setState(category);
   }
+  const filteredProducts = productData.filter(product => product.subCategory === state);
 
   return (
     <Wrapper>
@@ -103,6 +114,11 @@ function App() {
             <span style={{color: 'var(--50%, #7A7A7A)', fontSize: 15, fontFamily: 'Pretendard', fontWeight: '500'}}>총 3개의 상품이 있습니다.</span>
             <button style={{border: 'none', backgroundColor: 'transparent', color: '#458431', fontSize: 15, fontFamily: 'Pretendard', fontWeight: '500'}}>필터</button>
           </ProductFilter>
+          <ProductList>
+            {filteredProducts.map((product) => (
+              <Item key={product.id} product={product} />
+            ))}
+          </ProductList>
         </ProductWrapper>
       </MainContent>
     </Wrapper>

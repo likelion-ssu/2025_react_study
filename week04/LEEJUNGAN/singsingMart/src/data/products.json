@@ -8,7 +8,7 @@
     "price": 5490,
     "likes": 189,
     "soldCount": 135,
-    "img": "/images/products/1.jpg"
+    "img": "/assets/image1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "price": 4490,
     "likes": 212,
     "soldCount": 89,
-    "img": "/images/products/2.jpg"
+    "img": "/assets/image2.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "price": 6490,
     "likes": 154,
     "soldCount": 110,
-    "img": "/images/products/3.jpg"
+    "img": "/assets/image3.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "price": 5990,
     "likes": 203,
     "soldCount": 156,
-    "img": "/images/products/4.jpg"
+    "img": "/assets/image4.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "price": 5990,
     "likes": 203,
     "soldCount": 156,
-    "img": "/images/products/5.jpg"
+    "img": "/assets/image5.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "price": 3490,
     "likes": 243,
     "soldCount": 180,
-    "img": "/images/products/6.jpg"
+    "img": "/assets/image6.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "price": 3990,
     "likes": 90,
     "soldCount": 110,
-    "img": "/images/products/7.jpg"
+    "img": "/assets/image7.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "price": 12990,
     "likes": 302,
     "soldCount": 108,
-    "img": "/images/products/8.jpg"
+    "img": "/assets/image8.png"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "price": 8990,
     "likes": 189,
     "soldCount": 126,
-    "img": "/images/products/9.jpg"
+    "img": "/assets/image9.png"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "price": 5990,
     "likes": 177,
     "soldCount": 221,
-    "img": "/images/products/10.jpg"
+    "img": "/assets/image10.png"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "price": 1980,
     "likes": 241,
     "soldCount": 175,
-    "img": "/images/products/11.jpg"
+    "img": "/assets/image11.png"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "price": 3000,
     "likes": 89,
     "soldCount": 118,
-    "img": "/images/products/12.jpg"
+    "img": "/assets/image12.png"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "price": 21990,
     "likes": 239,
     "soldCount": 280,
-    "img": "/images/products/13.jpg"
+    "img": "/assets/image13.png"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "price": 32500,
     "likes": 321,
     "soldCount": 431,
-    "img": "/images/products/14.jpg"
+    "img": "/assets/image14.png"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "price": 14990,
     "likes": 32,
     "soldCount": 52,
-    "img": "/images/products/15.jpg"
+    "img": "/assets/image15.png"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "price": 15990,
     "likes": 41,
     "soldCount": 25,
-    "img": "/images/products/16.jpg"
+    "img": "/assets/image16.png"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "price": 15990,
     "likes": 122,
     "soldCount": 421,
-    "img": "/images/products/17.jpg"
+    "img": "/assets/image17.png"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "price": 10990,
     "likes": 536,
     "soldCount": 235,
-    "img": "/images/products/18.jpg"
+    "img": "/assets/image18.png"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "price": 19980,
     "likes": 121,
     "soldCount": 76,
-    "img": "/images/products/19.jpg"
+    "img": "/assets/image19.png"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "price": 12990,
     "likes": 238,
     "soldCount": 128,
-    "img": "/images/products/20.jpg"
+    "img": "/assets/image20.png"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "price": 12990,
     "likes": 98,
     "soldCount": 143,
-    "img": "/images/products/21.jpg"
+    "img": "/assets/image21.png"
   },
   {
     "id": 22,
@@ -239,6 +239,6 @@
     "price": 7990,
     "likes": 115,
     "soldCount": 58,
-    "img": "/images/products/22.jpg"
+    "img": "/assets/image22.png"
   }
 ]
