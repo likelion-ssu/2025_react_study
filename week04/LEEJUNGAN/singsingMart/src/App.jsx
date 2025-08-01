@@ -111,7 +111,7 @@ function App() {
         <ProductWrapper>
           <div style={{width: '100%', color: 'var(--80%, #313131)', fontSize: 32, fontFamily: 'Pretendard', fontWeight: '600'}}>{state}</div>
           <ProductFilter>
-            <span style={{color: 'var(--50%, #7A7A7A)', fontSize: 15, fontFamily: 'Pretendard', fontWeight: '500'}}>총 3개의 상품이 있습니다.</span>
+            <span style={{color: 'var(--50%, #7A7A7A)', fontSize: 15, fontFamily: 'Pretendard', fontWeight: '500'}}>총 {filteredProducts.length}개의 상품이 있습니다.</span>
             <button style={{border: 'none', backgroundColor: 'transparent', color: '#458431', fontSize: 15, fontFamily: 'Pretendard', fontWeight: '500'}}>필터</button>
           </ProductFilter>
           <ProductList>
